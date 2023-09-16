@@ -1,4 +1,4 @@
-### Ciencia de datos sobre datos inmobiliaria de Colombia en relacion con su demografia
+### Ciencia de datos sobre datos de una inmobiliaria de Colombia en relacion con su contexto demografico
 
 ----
 
