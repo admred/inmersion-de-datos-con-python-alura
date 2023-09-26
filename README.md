@@ -4,15 +4,15 @@
 
 ---
 
-#### Haciendo click en el siguiete enlace se puede acceder al Notebook de Jupyter
+#### Notebook de Jupyter
 
 ### >>> [Inmersion de datos con Python - Alura](https://github.com/admred/inmersion-de-datos-con-python-alura/blob/master/Inmersion_de_datos_con_python_Alura.ipynb) <<<
 
 ---
 
-###  Procedimientos o explica
+##  Procedimiento
 
-### 1. Tratamiento de datos y exposicion
+### 1. Obtencion, exploracion y tratamiento de datos
 
 1.1 Extraccion de datos
 
@@ -42,20 +42,21 @@
      
    En *supervisado* tenemos los modelos de
    
-   - Clasificacion: ideal cuando los datos son string , por ej: color, pais, etc
-   - Regresion: cuando los datos son numericos, por ej: edad, precio, etc
+   - Clasificacion: ideal cuando los datos son string , por ej: color, pais, sexo, etc
+   - Regresion: cuando los datos son numericos, por ej: edad, precio, temperatura, etc
    - Y otros como SVM, Tree, entre otros.
 
-2.1 Entrenaminto y se recompila los resultados
+2.1 Entrenaminto de ML
+   - Entrenar modelo con datos ya tratados
+   - Primera prueba de precision o *accuracy tests*
 
 2.2 Optiminzando modelos
 
   Se trata de repetir 2.1 con distintas variantes, en general contra la *baseline* que son los resultados del primera prueba.
-  
   - Metricas de precision de las predicciones: r2_score y median_absolute_error
   - Optimizacion:
     - Agregando o quitando columnas a nuestros datos de entrenamiento. Un grafico de correlacion o *heatmap* puede ayudar.
-    - Mediante *hyper-parametros*, son paramentros que cambian comportamiento interno del entrenamiento.
+    - Mediante *hyper-parametros*, son paramentros que toman cuando se crea el ML puede mejorar o no los resultados.
 
 ---
 
@@ -67,6 +68,6 @@
 -  Scikit-Learn
 -  Google Colab
 -  Datasets provistas por el curso de Alura
--  Github para hospedaje de este proyecto
+-  Github para hospedaje y difusion del proyecto
 
 ---
